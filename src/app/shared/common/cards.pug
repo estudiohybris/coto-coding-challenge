@@ -1,0 +1,8 @@
+mixin card--product(src, alt, product, description)
+    .card.card--bg-img
+        img.card-img(src=src, alt=alt)
+        .card-img-overlay
+            h4.font-weight-normal(title=product)=product
+            p.card-text(title=description)=description
+            div
+                a.btn.btn-primary(href="#") ver más

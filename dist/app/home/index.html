@@ -1,0 +1,194 @@
+<!-- https://github.com/pugjs/pug/issues/631-->
+<!-- https://codepen.io/14islands/pen/QqXYrb?editors=1010-->
+<!-- https://codepen.io/DimWeb/pen/LzjbeO-->
+<!-- initialization-->
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> Coto
+        </title>
+        <link rel="shortcut icon" type="image/x-icon" href="../../assets/images/favicons/favicon.ico">
+        <link rel="mask-icon" href="../../assets/favicons/favicon.svg" color="#ffffff">
+        <link rel="apple-touch-icon" sizes="57x57" href="../../assets/images/favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../../assets/images/favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../../assets/images/favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../../assets/images/favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../../assets/images/favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../../assets/images/favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../../assets/images/favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="../../assets/images/favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../../assets/images/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicons/favicon-16x16.png">
+        <meta name="msapplication-TileColor" content="#47B8D6">
+        <meta name="msapplication-TileImage" content="../../assets/images/favicons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#47B8D6">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="apple-touch-startup-image" href="../../assets/favicons/android-icon-192x192.png">
+        <meta name="description" content="Coding Challenge">
+        <meta name="keywords" content="coto, lacteos, yogurs, quesos, postres">
+        <meta name="author" content="Estudio Hybris, nataliagiannantonio@gmail.com">
+        <meta name="copyright" content="Estudio Hybris">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="url" content="http://www.estudiohybris.com.ar/">
+        <meta name="geo.placename" content="Buenos Aires">
+        <meta name="geo.region" content="AR">
+        <link rel="canonical" href="http://www.estudiohybris.com.ar/">
+        <meta property="og:locale" content="es_AR">
+        <meta property="og:url" content="http://www.estudiohybris.com.ar/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Coto">
+        <meta property="og:description" content="Coding Challenge">
+        <meta property="og:site_name" content="Coto">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" rel="stylesheet">
+        <link href="../../scss/main.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <section class="container-fluid bg-light">
+                <div class="row">
+                    <div class="col-12 offset-md-1 col-md-10 flex-column text-center">
+                        <h1>Lácteos sin Tacc</h1>
+                        <p class="mb-7">Estos derivados de la leche libres de gluten son ideales para utilizar en cualquier comida.</p>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-10">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 pb-1">
+                                <div class="card card--bg-img"><img class="card-img" src="http://localhost:3000/assets/images/leche.jpeg" alt="Leches" />
+                                    <div class="card-img-overlay">
+                                        <h4 class="font-weight-normal" title="Leches">Leches</h4>
+                                        <p class="card-text" title="Larga visa, frescars, infantiles, con café, chocolatadas, licuados">Larga visa, frescars, infantiles, con café, chocolatadas, licuados</p>
+                                        <div><a class="btn btn-primary" href="#">ver más</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 pb-1">
+                                <div class="card card--bg-img"><img class="card-img" src="http://localhost:3000/assets/images/yogurt.jpeg" alt="Yogures" />
+                                    <div class="card-img-overlay">
+                                        <h4 class="font-weight-normal" title="Yogures">Yogures</h4>
+                                        <p class="card-text" title="Enteros y descremados">Enteros y descremados</p>
+                                        <div><a class="btn btn-primary" href="#">ver más</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 pb-1">
+                                <div class="card card--bg-img"><img class="card-img" src="http://localhost:3000/assets/images/crema.jpeg" alt="Crema de leche &amp; chantilly" />
+                                    <div class="card-img-overlay">
+                                        <h4 class="font-weight-normal" title="Crema de leche &amp; chantilly">Crema de leche &amp; chantilly</h4>
+                                        <p class="card-text"></p>
+                                        <div><a class="btn btn-primary" href="#">ver más</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="card card--bg-img"><img class="card-img" src="http://localhost:3000/assets/images/manteca.jpeg" alt="Mantecas &amp; magarinas" />
+                                    <div class="card-img-overlay">
+                                        <h4 class="font-weight-normal" title="Mantecas &amp; magarinas">Mantecas &amp; magarinas</h4>
+                                        <p class="card-text"></p>
+                                        <div><a class="btn btn-primary" href="#">ver más</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 offset-md-1 col-md-10 flex-column text-center">
+                        <h3 class="mt-6">Quesos</h3>
+                        <p class="mb-4">Variedad de quesos libre de gluten.</p>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-10">
+                        <div class="row">
+                            <div class="col-6 col-sm-4 col-md-2 pb-1 pb-sm-0">
+                                <div class="img--cheese"><img class="img-fluid" src="http://localhost:3000/assets/images/quesoCrema.jpeg" alt="Crema y untables" />
+                                    <p title="Crema y untables">Crema y untables</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-2 pb-1 pb-sm-0">
+                                <div class="img--cheese"><img class="img-fluid" src="http://localhost:3000/assets/images/quesoFetas.jpeg" alt="Feteados" />
+                                    <p title="Feteados">Feteados</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-2 pb-1 pb-sm-0">
+                                <div class="img--cheese"><img class="img-fluid" src="http://localhost:3000/assets/images/quesoDuros.jpeg" alt="Duros" />
+                                    <p title="Duros">Duros</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-2 pb-1 pb-sm-0">
+                                <div class="img--cheese"><img class="img-fluid" src="http://localhost:3000/assets/images/quesoRicotta.jpeg" alt="Ricotta" />
+                                    <p title="Ricotta">Ricotta</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-2">
+                                <div class="img--cheese"><img class="img-fluid" src="http://localhost:3000/assets/images/quesoEspeciales.jpeg" alt="Especiales" />
+                                    <p title="Especiales">Especiales</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-2">
+                                <div class="img--cheese"><img class="img-fluid" src="http://localhost:3000/assets/images/quesoRallado.jpeg" alt="Rallados" />
+                                    <p title="Rallados">Rallados</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 offset-md-1 col-md-10 flex-column text-center">
+                        <h3 class="mt-8">Postres y dulces</h3>
+                        <p class="mb-4">Los postres que se te antojan sin Tacc.</p>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-10">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 pb-1">
+                                <div class="card card--bg-img"><img class="card-img" src="http://localhost:3000/assets/images/dulceDeLeche.jpeg" alt="Dulce de leche" />
+                                    <div class="card-img-overlay">
+                                        <h4 class="font-weight-normal" title="Dulce de leche">Dulce de leche</h4>
+                                        <p class="card-text"></p>
+                                        <div><a class="btn btn-primary" href="#">ver más</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 pb-1">
+                                <div class="card card--bg-img"><img class="card-img" src="http://localhost:3000/assets/images/postre.jpeg" alt="Postres cremosos" />
+                                    <div class="card-img-overlay">
+                                        <h4 class="font-weight-normal" title="Postres cremosos">Postres cremosos</h4>
+                                        <p class="card-text"></p>
+                                        <div><a class="btn btn-primary" href="#">ver más</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 pb-1">
+                                <div class="card card--bg-img"><img class="card-img" src="http://localhost:3000/assets/images/gelatina.jpeg" alt="Gelatinas y jaleas" />
+                                    <div class="card-img-overlay">
+                                        <h4 class="font-weight-normal" title="Gelatinas y jaleas">Gelatinas y jaleas</h4>
+                                        <p class="card-text"></p>
+                                        <div><a class="btn btn-primary" href="#">ver más</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="card card--bg-img"><img class="card-img" src="http://localhost:3000/assets/images/flan.jpeg" alt="Flanes" />
+                                    <div class="card-img-overlay">
+                                        <h4 class="font-weight-normal" title="Flanes">Flanes</h4>
+                                        <p class="card-text"></p>
+                                        <div><a class="btn btn-primary" href="#">ver más</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script type="text/javascript" src="../../main.bundle.js"></script>
+    </body>
+
+</html>

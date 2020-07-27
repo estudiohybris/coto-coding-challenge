@@ -1,0 +1,20 @@
+//- layout.pug
+
+include ../shared/mixins.pug
+
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(http-equiv="x-ua-compatible", content="ie=edge")
+        title 
+            block html_title
+        include favicons.pug
+        include seo.pug
+        link(href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap", rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap", rel="stylesheet")
+
+    body
+        main
+            block content

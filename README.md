@@ -8,4 +8,25 @@
 
 ## Tech
 
-This project was generated with HTML5, CSS3 and Bootstrap.
+This project was generated with PUG, HTML5, CSS3 and Bootstrap.
+
+## Command
+
+Getting Started
+Install dependencies
+
+```
+$ npm install
+```
+
+Running localhost
+
+```
+$ npm run dev
+```
+
+Running production
+
+```
+$ npm build && npm start
+```

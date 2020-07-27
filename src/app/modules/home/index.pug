@@ -1,0 +1,54 @@
+//- index.pug
+extends ../../layouts/layout
+
+block html_title
+    | Coto
+
+block content
+    section.container-fluid.bg-light
+        .row
+            .col-12.offset-md-1.col-md-10.flex-column.text-center
+                h1 Lácteos sin Tacc
+                p.mb-7 Estos derivados de la leche libres de gluten son ideales para utilizar en cualquier comida.
+            .col-12.offset-md-1.col-md-10
+                .row
+                    .col-12.col-lg-6.pb-1
+                        +card--product(`${hostname}/assets/images/leche.jpeg`, "Leches", "Leches", "Larga visa, frescars, infantiles, con café, chocolatadas, licuados")
+                    .col-12.col-lg-6.pb-1
+                        +card--product(`${hostname}/assets/images/yogurt.jpeg`, "Yogures", "Yogures", "Enteros y descremados")
+                    .col-12.col-lg-6.pb-1
+                        +card--product(`${hostname}/assets/images/crema.jpeg`, "Crema de leche & chantilly", "Crema de leche & chantilly", null)
+                    .col-12.col-lg-6
+                        +card--product(`${hostname}/assets/images/manteca.jpeg`, "Mantecas & magarinas", "Mantecas & magarinas", null)
+        .row
+            .col-12.offset-md-1.col-md-10.flex-column.text-center
+                h3.mt-6 Quesos
+                p.mb-4 Variedad de quesos libre de gluten.
+            .col-12.offset-md-1.col-md-10
+                .row
+                    .col-6.col-sm-4.col-md-2.pb-1.pb-sm-0
+                        +img--cheese(`${hostname}/assets/images/quesoCrema.jpeg`, "Crema y untables", "Crema y untables")
+                    .col-6.col-sm-4.col-md-2.pb-1.pb-sm-0
+                        +img--cheese(`${hostname}/assets/images/quesoFetas.jpeg`, "Feteados", "Feteados")
+                    .col-6.col-sm-4.col-md-2.pb-1.pb-sm-0
+                        +img--cheese(`${hostname}/assets/images/quesoDuros.jpeg`, "Duros", "Duros")
+                    .col-6.col-sm-4.col-md-2.pb-1.pb-sm-0
+                        +img--cheese(`${hostname}/assets/images/quesoRicotta.jpeg`, "Ricotta", "Ricotta")
+                    .col-6.col-sm-4.col-md-2
+                        +img--cheese(`${hostname}/assets/images/quesoEspeciales.jpeg`, "Especiales", "Especiales")
+                    .col-6.col-sm-4.col-md-2
+                        +img--cheese(`${hostname}/assets/images/quesoRallado.jpeg`, "Rallados", "Rallados")
+        .row
+            .col-12.offset-md-1.col-md-10.flex-column.text-center
+                h3.mt-8 Postres y dulces
+                p.mb-4 Los postres que se te antojan sin Tacc.
+            .col-12.offset-md-1.col-md-10
+                .row
+                    .col-12.col-lg-6.pb-1
+                        +card--product(`${hostname}/assets/images/dulceDeLeche.jpeg`, "Dulce de leche", "Dulce de leche", null)
+                    .col-12.col-lg-6.pb-1
+                        +card--product(`${hostname}/assets/images/postre.jpeg`, "Postres cremosos", "Postres cremosos", null)
+                    .col-12.col-lg-6.pb-1
+                        +card--product(`${hostname}/assets/images/gelatina.jpeg`, "Gelatinas y jaleas", "Gelatinas y jaleas", null)
+                    .col-12.col-lg-6
+                        +card--product(`${hostname}/assets/images/flan.jpeg`, "Flanes", "Flanes", null)
